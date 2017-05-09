@@ -77,6 +77,10 @@
 		4BAED9361EBE4D5D00430A28 /* RawFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAED9341EBE4D5D00430A28 /* RawFormatter.swift */; };
 		4BAED9371EBE4D5D00430A28 /* RawFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAED9341EBE4D5D00430A28 /* RawFormatter.swift */; };
 		4BAED9381EBE4D5D00430A28 /* RawFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAED9341EBE4D5D00430A28 /* RawFormatter.swift */; };
+		4BB7568B1EC1BDFE0081D998 /* OSLogTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7568A1EC1BDFE0081D998 /* OSLogTarget.swift */; };
+		4BB7568C1EC1BDFE0081D998 /* OSLogTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7568A1EC1BDFE0081D998 /* OSLogTarget.swift */; };
+		4BB7568D1EC1BDFE0081D998 /* OSLogTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7568A1EC1BDFE0081D998 /* OSLogTarget.swift */; };
+		4BB7568E1EC1BDFE0081D998 /* OSLogTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7568A1EC1BDFE0081D998 /* OSLogTarget.swift */; };
 		4BC62ED11EBCC00700F68DFC /* BasicFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC62ED01EBCC00700F68DFC /* BasicFormatter.swift */; };
 		4BC62ED21EBCC00700F68DFC /* BasicFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC62ED01EBCC00700F68DFC /* BasicFormatter.swift */; };
 		4BC62ED31EBCC00700F68DFC /* BasicFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC62ED01EBCC00700F68DFC /* BasicFormatter.swift */; };
@@ -141,6 +145,7 @@
 		4BAED9301EBE38AF00430A28 /* BufferTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferTests.swift; sourceTree = "<group>"; };
 		4BAED9321EBE3A9E00430A28 /* SeparatorBasedLogSerializerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorBasedLogSerializerTests.swift; sourceTree = "<group>"; };
 		4BAED9341EBE4D5D00430A28 /* RawFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawFormatter.swift; sourceTree = "<group>"; };
+		4BB7568A1EC1BDFE0081D998 /* OSLogTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSLogTarget.swift; sourceTree = "<group>"; };
 		4BC62ED01EBCC00700F68DFC /* BasicFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicFormatter.swift; sourceTree = "<group>"; };
 		4BC62ED51EBCC01600F68DFC /* AnyFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyFormatter.swift; sourceTree = "<group>"; };
 		4BDA35E11EB9ACCB00B93628 /* Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
@@ -252,6 +257,7 @@
 				4B7BFC651EBAE9F400CB9027 /* NoBuffer.swift */,
 				4BAED9341EBE4D5D00430A28 /* RawFormatter.swift */,
 				4BAED92B1EBE2E6400430A28 /* SeparatorBasedLogSerializer.swift */,
+				4BB7568A1EC1BDFE0081D998 /* OSLogTarget.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -561,6 +567,7 @@
 				4B1C721E1EBBA1B6008AA3FC /* Timer.swift in Sources */,
 				4BAED9361EBE4D5D00430A28 /* RawFormatter.swift in Sources */,
 				4B80E7A71EB9F40700C9BE63 /* Formatter.swift in Sources */,
+				4BB7568C1EC1BDFE0081D998 /* OSLogTarget.swift in Sources */,
 				4B80E7A91EB9F40700C9BE63 /* ConsoleTarget.swift in Sources */,
 				4BAED92D1EBE2E6400430A28 /* SeparatorBasedLogSerializer.swift in Sources */,
 				4B80E7A61EB9F40700C9BE63 /* AsyncPipeline.swift in Sources */,
@@ -589,6 +596,7 @@
 				4B1C721F1EBBA1B6008AA3FC /* Timer.swift in Sources */,
 				4BAED9371EBE4D5D00430A28 /* RawFormatter.swift in Sources */,
 				4B80E7B01EB9F40700C9BE63 /* Formatter.swift in Sources */,
+				4BB7568D1EC1BDFE0081D998 /* OSLogTarget.swift in Sources */,
 				4B80E7B21EB9F40700C9BE63 /* ConsoleTarget.swift in Sources */,
 				4BAED92E1EBE2E6400430A28 /* SeparatorBasedLogSerializer.swift in Sources */,
 				4B80E7AF1EB9F40700C9BE63 /* AsyncPipeline.swift in Sources */,
@@ -617,6 +625,7 @@
 				4B1C72201EBBA1B6008AA3FC /* Timer.swift in Sources */,
 				4BAED9381EBE4D5D00430A28 /* RawFormatter.swift in Sources */,
 				4B80E7B91EB9F40700C9BE63 /* Formatter.swift in Sources */,
+				4BB7568E1EC1BDFE0081D998 /* OSLogTarget.swift in Sources */,
 				4B80E7BB1EB9F40700C9BE63 /* ConsoleTarget.swift in Sources */,
 				4BAED92F1EBE2E6400430A28 /* SeparatorBasedLogSerializer.swift in Sources */,
 				4B80E7B81EB9F40700C9BE63 /* AsyncPipeline.swift in Sources */,
@@ -645,6 +654,7 @@
 				4B1C721D1EBBA1B6008AA3FC /* Timer.swift in Sources */,
 				4BAED9351EBE4D5D00430A28 /* RawFormatter.swift in Sources */,
 				4BDA35E61EB9ACD500B93628 /* FileTarget.swift in Sources */,
+				4BB7568B1EC1BDFE0081D998 /* OSLogTarget.swift in Sources */,
 				4BDA35E81EB9ADA800B93628 /* Plugin.swift in Sources */,
 				4BAED92C1EBE2E6400430A28 /* SeparatorBasedLogSerializer.swift in Sources */,
 				4BDA35EE1EB9E72E00B93628 /* Formatter.swift in Sources */,
